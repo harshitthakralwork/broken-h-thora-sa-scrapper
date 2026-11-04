@@ -1,0 +1,12 @@
+# Direct dependencies fixed to the versions used for the Linux verification run.
+# Transitive dependencies are not fully locked.
+fastapi==0.162.0
+starlette==1.10.0
+uvicorn[standard]==0.54.0
+sqlalchemy==2.1.6
+psycopg[binary]==3.3.6
+beautifulsoup4==4.15.0
+python-dotenv==1.2.4
+pytest==9.0.3
+httpx==0.28.1
+alembic==1.20.1

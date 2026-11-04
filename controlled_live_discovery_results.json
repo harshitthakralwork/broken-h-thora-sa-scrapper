@@ -1,0 +1,36 @@
+[
+  {
+    "test": "Controlled Live: Bengaluru Logistics",
+    "error": "timed out"
+  },
+  {
+    "test": "Controlled Live: Mumbai Clinics",
+    "error": "timed out"
+  },
+  {
+    "test": "Controlled Live: Gurugram IT Services",
+    "status_code": 200,
+    "data": {
+      "job": {
+        "id": "806f7462-2397-423d-b0bd-cb0f3953509a",
+        "name": "Controlled Live: Gurugram IT Services",
+        "status": "failed",
+        "results_count": 0
+      },
+      "result": {
+        "job_id": "806f7462-2397-423d-b0bd-cb0f3953509a",
+        "status": "failed",
+        "error": "osm_overpass: HTTP 429",
+        "added": 0,
+        "duplicates_flagged_for_review": 0,
+        "total_discovered": 0,
+        "per_provider_counts": {
+          "osm_overpass": 0
+        },
+        "provider_errors": {
+          "osm_overpass": "HTTP 429"
+        }
+      }
+    }
+  }
+]

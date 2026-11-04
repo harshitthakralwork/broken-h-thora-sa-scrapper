@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "78ebcd9b-22fa-4419-a76c-7c1888f84e46",
+    "name": "Controlled Live: Indian Clinics Crawler (Dr Agarwal)",
+    "status": "completed",
+    "results_count": 1
+  },
+  "result": {
+    "job_id": "78ebcd9b-22fa-4419-a76c-7c1888f84e46",
+    "status": "completed",
+    "added": 0,
+    "duplicates_flagged_for_review": 1,
+    "total_discovered": 1,
+    "per_provider_counts": {
+      "website_crawler": 1
+    },
+    "provider_errors": {}
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "configured_fossgis",
+    "name": "FOSSGIS Main Overpass (Current Configured)",
+    "url": "https://overpass-api.de/api/interpreter",
+    "operator": "Roland Olbricht / FOSSGIS e.V. (Germany)",
+    "coverage": "Global",
+    "policy": "Fair-use shared public tier (<10k queries/day, <5GB/day), strict concurrency slots",
+    "http_status": null,
+    "response_time_sec": 18.44,
+    "response_size_bytes": null,
+    "valid_json": false,
+    "element_count": 0,
+    "error": "ReadTimeout: The read operation timed out"
+  },
+  {
+    "id": "private_coffee",
+    "name": "Private.coffee Overpass (formerly Kumi Systems)",
+    "url": "https://overpass.private.coffee/api/interpreter",
+    "operator": "Private.coffee (Austrian non-profit association)",
+    "coverage": "Global",
+    "policy": "Free community tier, multi-node cluster, contact for high-volume batch jobs",
+    "http_status": null,
+    "response_time_sec": 18.47,
+    "response_size_bytes": null,
+    "valid_json": false,
+    "element_count": 0,
+    "error": "ReadTimeout: The read operation timed out"
+  },
+  {
+    "id": "vk_maps",
+    "name": "VK Maps Overpass Mirror",
+    "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+    "operator": "VK / Mail.ru (Russia)",
+    "coverage": "Global",
+    "policy": "Public community mirror with global coverage",
+    "http_status": null,
+    "response_time_sec": 19.17,
+    "response_size_bytes": null,
+    "valid_json": false,
+    "element_count": 0,
+    "error": "ReadTimeout: The read operation timed out"
+  },
+  {
+    "id": "osm_france",
+    "name": "OpenStreetMap France",
+    "url": "https://overpass.openstreetmap.fr/api/interpreter",
+    "operator": "OpenStreetMap France Association (OSM-FR)",
+    "coverage": "Global",
+    "policy": "Restricted / Whitelisted applications only",
+    "http_status": 403,
+    "response_time_sec": 0.5,
+    "response_size_bytes": 53,
+    "valid_json": false,
+    "element_count": 0,
+    "error": "HTTP 403: This service is only available to white-listed usages"
+  },
+  {
+    "id": "sosm_swiss",
+    "name": "Swiss OpenStreetMap Association",
+    "url": "https://overpass.osm.ch/api/interpreter",
+    "operator": "Swiss OpenStreetMap Association (SOSM)",
+    "coverage": "Regional (Switzerland only)",
+    "policy": "Public regional mirror for Swiss territory",
+    "http_status": 200,
+    "response_time_sec": 0.6,
+    "response_size_bytes": 272,
+    "valid_json": true,
+    "element_count": 0,
+    "error": null
+  }
+]

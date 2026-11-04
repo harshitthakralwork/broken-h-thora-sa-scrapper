@@ -1,0 +1,19 @@
+{
+  "job": {
+    "id": "11ebe682-5496-4173-8775-1a866ff479d4",
+    "name": "Phase 10 Live: Gurugram IT Consulting Discovery",
+    "status": "completed",
+    "results_count": 3
+  },
+  "result": {
+    "job_id": "11ebe682-5496-4173-8775-1a866ff479d4",
+    "status": "completed",
+    "added": 3,
+    "duplicates_flagged_for_review": 0,
+    "total_discovered": 3,
+    "per_provider_counts": {
+      "wikidata_sparql": 3
+    },
+    "provider_errors": {}
+  }
+}
